@@ -9,9 +9,9 @@
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
-const char* ssid = "PLDTHOMEFIBRgCk8r";
-const char* password = "He@rts565656";
-const char* apiEndpoint = "http://192.168.1.80:8000/api/attendance/";
+const char* ssid = "PLDTHOMEFIBRgCk8r"; // Your network SSID
+const char* password = "He@rts565656";  // Your network password
+const char* apiEndpoint = "https://rfid-api-35ya.onrender.com/api/attendance/";
 
 struct Tag {
   const char* id;
